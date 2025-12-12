@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    position: relative;
+}
+
+canvas {
+    background: white;
+    border: 3px solid black;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
